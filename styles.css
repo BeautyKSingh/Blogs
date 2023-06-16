@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #563838, #000000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.segment {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.segment-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.sub-segment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sub-segment-icon {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.sub-segment a {
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sub-segment a:hover {
+  color: #007bff;
+}
+
+.news-item,
+.event-item,
+.job-item {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.news-item:hover,
+.event-item:hover,
+.job-item:hover {
+  transform: translateY(-5px);
+}
+
+.news-date {
+  color: #007bff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.news-title {
+  margin-top: 10px;
+  color: #333333;
+}
+
+.news-content {
+  margin-top: 10px;
+  color: #555555;
+}
+
+.event-date {
+  color: #007bff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.event-title {
+  margin-top: 10px;
+  color: #333333;
+}
+
+.event-details {
+  margin-top: 10px;
+  color: #555555;
+}
+
+.job-title {
+  color: #333333;
+}
+
+.job-details {
+  margin-top: 10px;
+  color: #555555;
+}
+
+.blogs {
+  background-color: #ededeb;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.sub-segment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sub-segment-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.sub-segment a {
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sub-segment a:hover {
+  color: #007bff;
+}
+
+
+.news-feeds {
+  background-color: #fef3c7;
+}
+
+.event-updates {
+  background-color: #d0f0c0;
+}
+
+.job-updates {
+  background-color: #f7dada;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .segment {
+    padding: 10px;
+  }
+
+  .blogs {
+    padding: 10px;
+  }
+  
+  .sub-segment-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sub-segment a {
+    font-size: 14px;
+  }
+}
